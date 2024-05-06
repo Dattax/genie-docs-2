@@ -17,11 +17,29 @@
 
 ## Introduction
 
-In this tutorial, we demonstrate how to deploy a dashboard using Genie along its associated Stipple framework for interactive applications.
+On this page, we will demonstrate how to deploy a dashboard using Genie Builder for data-centric web applications.
 
-![genie-iris-snapshot](genie-iris-snapshot.png)
+## Getting Started with Genie Builder
 
-## Getting Started with Genie
+1. First, Login to JuliaHub.com
+2. Navigate to the Projects area (on the left-side panel)
+[Screenshot]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Other
 
 The most important step is to first have a functioning Genie app.
 The [Official Genie resources page](https://genieframework.com/) provides further details on the various tools available to assist in the development.
