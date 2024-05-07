@@ -25,6 +25,32 @@ On this page, we will demonstrate how to deploy a dashboard using Genie Builder 
 2. Navigate to the Projects area (on the left-side panel)
 [Screenshot]
 
+## Create a New Project:
+
+1. Click on "Create New Project” and select Genie from the template choices
+2. Give your project a name and (optional) description
+3. Select Editing Mode (Exclusive if working by yourself) or Collab Mode (if you want to have others work off branches on your project)
+4. Add any Collaborators if needed
+
+Once your project is created, hit the Launch button. It will take a minute to start the instance and then it’ll say “Connect” when ready. Click on Connect.
+
+## Build Your Interface (No-Code Editor):
+
+1. Open the app.jl.html file in your project. This is where you'll design your app's layout.
+2. Select from 70+ UI components (buttons, text fields, charts, etc.) and drag them onto the page. The Genie Builder panel provides tools to customize the look, properties, and behaviors of each component.
+3. To Run, on the Genie Builder panel, click "Start Server".
+4. This will open a web browser where you can preview and interact with your app.
+
+# How to Deploy Genie Apps on JuliaHub:
+
+Within Genie Builder, click the "Launch to JuliaHub" button. It will: 
+1. Create a new 'Application' in your JuliaHub workspace
+2. Automatically package and upload your Genie app
+In your JuliaHub workspace, open the newly created Application.
+Choose your desired hosting plan (Free tier is available)
+Adjust resources (CPU, memory) if needed
+Set any necessary environment variables
+Hit the "Launch" button!
 
 
 
@@ -38,8 +64,7 @@ On this page, we will demonstrate how to deploy a dashboard using Genie Builder 
 
 
 
-
-## Other
+## Other (Old)
 
 The most important step is to first have a functioning Genie app.
 The [Official Genie resources page](https://genieframework.com/) provides further details on the various tools available to assist in the development.
