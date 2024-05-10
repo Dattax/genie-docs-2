@@ -55,10 +55,22 @@ On this page, we will demonstrate how to deploy a dashboard using Genie Builder 
 
 ## Build Your Interface (No-Code Editor):
 
-1. Open the app.jl.html file in your project. This is where you'll design your app's layout.
-2. Select from 70+ UI components (buttons, text fields, charts, etc.) and drag them onto the page. The Genie Builder panel provides tools to customize the look, properties, and behaviors of each component.
-3. To Run, on the Genie Builder panel, click "Start Server".
-4. This will open a web browser where you can preview and interact with your app.
+<p>1. Once the Julia/Genie IDE opens, you'll need to wait a few minutes for Genie to start up. If it doesn't start, click on **GB stopped** at the bottom of the screen and it will then start the instance.</p>
+<p>
+<img width="1438" alt="g0" src="https://github.com/Dattax/genie-docs-2/assets/1408846/3b44094d-4fab-41fa-b6ad-69e246aeac0e">
+</p>
+<p>2. Once started, you should see a tab appear on the lower-left side of the screen that says **Genie**</p>
+<p>
+<img width="1437" alt="g1" src="https://github.com/Dattax/genie-docs-2/assets/1408846/7482afcb-2387-4612-af4e-ef4dc49fb490"> 
+</p>
+<p>3. This should start the drag n' drop functionalty of Genie Builder. If it doesn't click on the app.jl.html and it will open the
+editor. On the right, you'll see components you can drag into the screen to build your application.</p>
+<p><img width="1440" alt="g2" src="https://github.com/Dattax/genie-docs-2/assets/1408846/9c284d7c-24a6-45ea-938f-ec0fa253c561"></p>
+<p>4. If you want to preview your app, click on the preview icon located on the bottom left. It may not appear until hover over.</p>
+<p><img width="1440" alt="g3" src="https://github.com/Dattax/genie-docs-2/assets/1408846/1d11d864-bfcd-4bc6-a30b-1af44bf5df4a"></p>
+<p>5. This is how the preview mode will look:  </p>
+<p><img width="1440" alt="g4" src="https://github.com/Dattax/genie-docs-2/assets/1408846/7d2f9eb3-2be0-4622-b2a4-1f139175e079">
+</p>
 
 # How to Deploy Genie Apps on JuliaHub:
 
