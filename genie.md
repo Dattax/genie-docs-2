@@ -23,16 +23,35 @@ On this page, we will demonstrate how to deploy a dashboard using Genie Builder 
 
 1. First, Login to JuliaHub.com
 2. Navigate to the Projects area (on the left-side panel)
-[Screenshot]
+
+<img width="1426" alt="s0" src="https://github.com/Dattax/genie-docs-2/assets/1408846/ca4e8c47-544c-4e0f-aa5c-995af7045525">
 
 ## Create a New Project:
 
-1. Click on "Create New Project” and select Genie from the template choices
-2. Give your project a name and (optional) description
-3. Select Editing Mode (Exclusive if working by yourself) or Collab Mode (if you want to have others work off branches on your project)
-4. Add any Collaborators if needed
-
-Once your project is created, hit the Launch button. It will take a minute to start the instance and then it’ll say “Connect” when ready. Click on Connect.
+<p>1. Click on "Create Project”</p>
+<p>
+<img width="1346" alt="s1" src="https://github.com/Dattax/genie-docs-2/assets/1408846/f3385821-5855-4b22-b33a-d646d0233417">
+</p>
+<p>2. Select Genie from the template choices</p>
+<p>
+<img width="1421" alt="s2" src="https://github.com/Dattax/genie-docs-2/assets/1408846/c27a87bf-6959-450d-b544-80758916e8ec">
+</p>
+<p>3. Give your project a name and (optional) description.  Select Editing Mode (Exclusive if working by yourself) or Collab Mode (if you want to have others work off branches on your project)</p>
+<p>
+<img width="1393" alt="s3" src="https://github.com/Dattax/genie-docs-2/assets/1408846/610f6292-796e-4327-bb9f-c5970636ce37">
+</p>
+<p>4. Add any Collaborators if needed</p>
+<p>
+<img width="1378" alt="s4" src="https://github.com/Dattax/genie-docs-2/assets/1408846/f496a8a1-582e-44ea-b844-c49578a4bf86">
+</br>
+<p>5. Once your project is created, hit the Launch button.<p>
+<p>
+<img width="1328" alt="s5" src="https://github.com/Dattax/genie-docs-2/assets/1408846/408b45d7-6ab5-4613-aba2-ab8148dacb35">
+</p>
+<p>6. It will take a minute to start the instance and then it’ll say “Connect” when ready. Click on Connect.</p>
+<p>
+<img width="1341" alt="s6" src="https://github.com/Dattax/genie-docs-2/assets/1408846/23f188a4-81a3-4b95-acbf-f4a70cf31a5c">
+</p>
 
 ## Build Your Interface (No-Code Editor):
 
