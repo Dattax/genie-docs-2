@@ -74,26 +74,40 @@ editor. On the right, you'll see components you can drag into the screen to buil
 
 # How to Deploy Genie Apps on JuliaHub:
 
-Within Genie Builder, click the "Launch to JuliaHub" button. It will: 
-1. Create a new 'Application' in your JuliaHub workspace
-2. Automatically package and upload your Genie app
-In your JuliaHub workspace, open the newly created Application.
-Choose your desired hosting plan (Free tier is available)
-Adjust resources (CPU, memory) if needed
-Set any necessary environment variables
-Hit the "Launch" button!
+<p>1. Once you are done editing your Genie Builder app, you can launch it live on JuliaHub for the public or for just your organization to see. Go back to your project view.</p>
+<p>2. If you are in collaborative edting mode, you will notice that the deploy button is greyed out. This is because in this editing mode, you can only deploy from the Source (main branch).</p>
+<p><img width="1440" alt="f1" src="https://github.com/Dattax/genie-docs-2/assets/1408846/8d76225d-1cb1-4a39-8498-eb146726df89"></p>
+<p>3. Before you switch to source, you should make sure your app changes in your workspace are published (committed) to the source branch. To do so, click on the publish button.</p>
+<p>
+<img width="1440" alt="f2" src="https://github.com/Dattax/genie-docs-2/assets/1408846/50b1f243-f12b-48a6-838d-f52fe1ce70fb"> 
+</p>
+<p>4. Now you can switch the source branch.</p>
+<p><img width="1440" alt="f3" src="https://github.com/Dattax/genie-docs-2/assets/1408846/956927f9-47ce-4a4f-9b20-78634b77717f"></p>
+<p>5. From the source (main branch) of the project, you can now deploy the project.</p>
+<img width="1440" alt="f4" src="https://github.com/Dattax/genie-docs-2/assets/1408846/4b34319b-b005-4fab-ab5b-c1f957b8b752">
+</p>
+<p>6. The first time you do this, JuliaHub may ask for your credit card information. This is because deploying an app and hosting it costs money. You can learn more about our [pricing for hosted apps here](https://help.juliahub.com/juliahub/stable/tutorials/web_hosting/).</p>
+<p>7. Once you have input your credit card information and returned to the project and hit deploy, the project will now ask you a few options for your hosted app. From here, you can select the size of the machine (hosting plan), the time limit for your app to be live, and the authorization type of totally public or just hosted for you or your organization. The most important thing to check here is that the port number is set to 9999. If not, please enter 9999. Then hit Start.</p>
+<p><img width="1437" alt="f6" src="https://github.com/Dattax/genie-docs-2/assets/1408846/aad8c5db-8ee7-426f-ab9e-39a7d4edd032"></p>
+<p>8. Now, the app will start the deployment process. It may take up to 5 minutes for your app to be deployed on the selected machine. Once ready, you can hit the Connect button to launch your live app. </p>
+<p>
+ <img width="1391" alt="f7" src="https://github.com/Dattax/genie-docs-2/assets/1408846/f331947b-dfcc-47d1-936b-f979d09feebb">
+</p>
+<p>9. Alternatively, you can selet on the right-hand arrow and click on the copy link button.</p>
+<p>
+<img width="1395" alt="f8" src="https://github.com/Dattax/genie-docs-2/assets/1408846/977615b4-57dc-4033-8b5a-791258a1a02d">
+</p>
+<p>10. This will give you the URL of your live app and options to embed this on other sites.</p>
+<p>
+<img width="1436" alt="f9" src="https://github.com/Dattax/genie-docs-2/assets/1408846/7d3d5f7d-df2e-4e43-9f0a-5be76265ff0f">
+</p>
+<p>11. Congratulations! You should see your live app at the URL on JuliaHub.</p>
+<p>
+<img width="1439" alt="f10" src="https://github.com/Dattax/genie-docs-2/assets/1408846/2f861115-071e-4224-a277-02188940fcbf"></p>
 
+## Feedback
 
-
-
-
-
-
-
-
-
-
-
+## Troubleshooting
 
 ## Other (Old)
 
